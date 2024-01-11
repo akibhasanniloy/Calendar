@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bcimg2.avif");
+    background-repeat: no-repeat;
+}
+.title-heading{
+    font-size: 30px;
+    font-weight: 1000px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.date-day-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 30px repeat(5, 50px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date, .day{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.day{
+    font-size: 1em;
+    background-color: blue;
+}
